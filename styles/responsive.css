@@ -1,0 +1,114 @@
+@media (max-width: 1300px) {
+    .home .max-ancho {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1104px) {
+    .about .about-contenido .left img {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-ancho {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before {
+        content: '\f00d';
+    }
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active {
+        left: 0;
+    }
+    .navbar .menu li {
+        display: block;
+    }
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .home .home-contenido .text-2 {
+        font-size: 70px;
+    }
+    .home .home-contenido .text-3 {
+        font-size: 35px;
+    }
+    .home .home-contenido a {
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-ancho {
+        max-width: 800px;
+    }
+    .about .about-contenido .column {
+        width: 100%;
+    }
+    .about .about-contenido .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-contenido .right {
+        flex: 100%;
+    }
+}
+
+@media only screen and (max-width: 770px) {}
+
+@media (max-width: 690px) {
+    .max-ancho {
+        padding: 0 23px;
+    }
+    .home .home-contenido .text-2 {
+        font-size: 60px;
+    }
+    .home .home-contenido .text-3 {
+        font-size: 32px;
+    }
+    .home .home-contenido a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .home .home-contenido .text-2 {
+        font-size: 50px;
+    }
+    .home .home-contenido .text-3 {
+        font-size: 27px;
+    }
+}
+
+@media(max-width:720px) {
+    .box-slide {
+        width: 94%;
+        height: 500px;
+    }
+    .model {
+        height: 250px;
+    }
+    .details p {
+        font-size: 16px;
+        width: 250px;
+    }
+}

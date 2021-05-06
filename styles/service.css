@@ -1,0 +1,64 @@
+.servicios {
+    color: #fff;
+    background: #111;
+}
+
+.servicios-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+}
+
+.servicios .title::before {
+    background: #fff;
+}
+
+.servicios .title::after {
+    background: #111;
+    content: '¿Que ofrezco?';
+}
+
+.servicios .servicios-contenido .card {
+    width: calc(33% - 20px);
+    min-width: 211px;
+    background-color: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.servicios .servicios-contenido .card:hover {
+    background: #457b9d;
+}
+
+.servicios .servicios-contenido .card .box {
+    transition: all 0.3s ease;
+}
+
+.card:hover .box {
+    transform: scale(1.05);
+}
+
+.servicios .servicios-contenido .card i {
+    font-size: 50px;
+    color: #457b9d;
+    transition: color 0.3s ease;
+}
+
+.servicios .servicios-contenido .card:hover i {
+    color: #fff;
+}
+
+.servicios .servicios-contenido .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.servicios .servicios-contenido .card .box p {
+    font-family: 'Roboto', sans-serif;
+}

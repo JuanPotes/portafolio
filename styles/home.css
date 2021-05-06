@@ -1,0 +1,53 @@
+.home {
+    display: flex;
+    background: url("../img/background.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+.home .max-ancho {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-contenido .text-1 {
+    font-size: 20px;
+}
+
+.home .home-contenido .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-contenido .text-3 {
+    font-size: 40px;
+    margin-left: 5px 0;
+}
+
+.home .home-contenido .text-3 span {
+    color: #219ebc;
+    font-weight: 500;
+}
+
+.home .home-contenido a {
+    display: inline-block;
+    background: #219ebc;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #219ebc;
+    transition: all 0.3s ease;
+}
+
+.home .home-contenido a:hover {
+    color: #219ebc;
+    background: none;
+}

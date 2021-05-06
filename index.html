@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/service.css">
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/lightslider.css">
+    <link rel="icon" href="img/port.png">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="max-ancho">
+            <div class="logo"><a href="#"> Mi Portafolio.</a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Acerca de mi</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#footer">Contacto</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="home" id="home">
+        <div class="max-ancho">
+            <div class="home-contenido">
+                <div class="text-1">Hello World! Mi nombre es</div>
+                <div class="text-2">Juan David Potes</div>
+                <div class="text-3">y soy <span class="typing"></span></div>
+                <a href="#">Contratame!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-ancho">
+            <h2 class="title">Acerca de mi</h2>
+            <div class="about-contenido">
+                <div class="column left">
+                    <img src="img/perfil.jpg" alt="Juan Potes" class="imagenFondo">
+                </div>
+                <div class="column right">
+                    <div class="text">Soy Juan y soy <span>Desarrollador de Software</span></div>
+                    <p>Soy una persona con actitud positiva, orientada a la atención y servicio al cliente. Capacidad analítica, creativa a la hora de desempeñarme en cualquier labor o empleo, encaminada a resultados; buen manejo de relaciones interpersonales,
+                        flexibilidad a los cambios, capacidad de aprendizaje, colaboración, dinamismo, confiabilidad, iniciativa, sentido de urgencia, liderazgo y facilidad para trabajar en equipo.
+                    </p>
+                    <a href="pdf/HOJA DE VIDA JUAN DAVID POTES MEDINA.pdf" target="_blank" rel="noopener noreferrer">Descargar Hoja de Vida</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="servicios" id="servicios">
+        <div class="max-ancho">
+            <h2 class="title">Mis servicios</h2>
+            <div class="servicios-contenido">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-roller"></i>
+                        <div class="text">Diseño Web</div>
+                        <p>Desarrollo paginas web a partir de lo que requiera el cliente, asegurando un sello de identidad para la empresa.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-server"></i>
+                        <div class="text">Analisis de informacion</div>
+                        <p>Mediante el analisis de datos establecer estrategias. Recopilación de datos para analizarlos de forma estadística.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-laptop-code"></i>
+                        <div class="text">Desarrollo en escritorio</div>
+                        <p>Desarrollo programas o sistemas de escritorio, asi mismo, realizo el mantenimiento o mejoras correspondientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="max-ancho">
+            <h2 class="title">Mis skills</h2>
+            <ul id="autoWidth" class="cs-hidden">
+                <li class="item-a">
+                    <div class="container-slide">
+                        <div class="box-slide">
+                            <p class="tecnologias">Tecnologías</p>
+                            <img src="img/css.png" alt="htmlcss" class="model">
+                            <div class="details">
+                                <h2>Frontend</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="container-slide">
+                        <div class="box-slide">
+                            <p class="tecnologias">Tecnologías</p>
+                            <img src="img/angular.png" alt="htmlcss" class="model">
+                            <div class="details">
+                                <h2>Framework</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="container-slide">
+                        <div class="box-slide">
+                            <p class="tecnologias">Tecnologías</p>
+                            <img src="img/html.png" alt="htmlcss" class="model">
+                            <div class="details">
+                                <h2>Frontend</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="container-slide">
+                        <div class="box-slide">
+                            <p class="tecnologias">Tecnologías</p>
+                            <img src="img/javas.png" alt="htmlcss" class="model">
+                            <div class="details">
+                                <h2>Backend</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="container-slide">
+                        <div class="box-slide">
+                            <p class="tecnologias">Tecnologías</p>
+                            <img src="img/js.png" alt="htmlcss" class="model">
+                            <div class="details">
+                                <h2>Frontend</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="container-slide">
+                        <div class="box-slide">
+                            <p class="tecnologias">Tecnologías</p>
+                            <img src="img/sql.png" alt="htmlcss" class="model">
+                            <div class="details">
+                                <h2>Database</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="container-slide">
+                        <div class="box-slide">
+                            <p class="tecnologias">Tecnologías</p>
+                            <img src="img/vue.png" alt="htmlcss" class="model">
+                            <div class="details">
+                                <h2>Framework</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="container-slide">
+                        <div class="box-slide">
+                            <p class="tecnologias">Tecnologías</p>
+                            <img src="img/php.png" alt="htmlcss" class="model">
+                            <div class="details">
+                                <h2>Backend</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="container-slide">
+                        <div class="box-slide">
+                            <p class="tecnologias">Tecnologías</p>
+                            <img src="img/c.png" alt="htmlcss" class="model">
+                            <div class="details">
+                                <h2>Backend</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="container-slide">
+                        <div class="box-slide">
+                            <p class="tecnologias">Tecnologías</p>
+                            <img src="img/react.png" alt="htmlcss" class="model">
+                            <div class="details">
+                                <h2>Library</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container-footer">
+            <ul class="flex-row" id="footer">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Acerca de mi</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <ul class="flex-row">
+
+                <li><a href="https://www.instagram.com/invites/contact/?i=8l1wnbyk3kr4&utm_content=jpdezk" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/juan-david-potes-medina-520392209/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/JuanPotes" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <p>&copy; Web diseñada por: Juan David Potes</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/tipeado.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/slider.js"></script>
+
+</body>
+
+</html>
